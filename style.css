@@ -1,0 +1,19 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f1b;
+  color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #106944;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img.logo {
+  height: 40px;
+  width: auto;
+}
