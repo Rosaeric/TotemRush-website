@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TotemRush Application Form</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <h1>TotemRush Application</h1>
+    <form action="submit.php" method="POST">
+      <label>Minecraft Username:</label>
+      <input type="text" name="username" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Discord Tag (e.g. user#1234):</label>
+      <input type="text" name="discord" required>
+
+      <label>Age:</label>
+      <input type="number" name="age" required>
+
+      <label>Timezone:</label>
+      <input type="text" name="timezone" required>
+
+      <label>Country:</label>
+      <input type="text" name="country" required>
+
+      <label>How did you find TotemRush?</label>
+      <input type="text" name="referral" required>
+
+      <label>Why do you want to join?</label>
+      <textarea name="why_join" required></textarea>
+
+      <label>What's your playstyle?</label>
+      <input type="text" name="playstyle" required>
+
+      <label>Do you have prior server experience?</label>
+      <textarea name="experience" required></textarea>
+
+      <label>Are you in our Discord server?</label>
+      <input type="text" name="in_discord" required>
+
+      <label>Are you comfortable speaking in VC?</label>
+      <input type="text" name="vc_ok" required>
+
+      <label>Can you record or stream?</label>
+      <input type="text" name="recording" required>
+
+      <label>How often can you play per week?</label>
+      <input type="text" name="playtime" required>
+
+      <label>Anything else we should know?</label>
+      <textarea name="other" required></textarea>
+
+      <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>
